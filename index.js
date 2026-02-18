@@ -18,6 +18,12 @@ app.get('/facebook', (req, res) => {
 app.get('/linkedin', (req, res) => {
     res.send('Hello World! from LinkedIn!')
 })
+
+app.get('/github', (req, res) => {
+    res.send('Hello World! from GitHub!')
+})
+
+
 app.listen(process.env.PORT, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
 })
